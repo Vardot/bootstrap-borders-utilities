@@ -2,32 +2,34 @@
 // Alternate border color (side ) variants utility.
 //
 
-// scss-docs-start border-top-variant-loops
-@each $color, $value in $theme-colors {
+body {
+  // scss-docs-start border-top-variant-loops
+  @each $color, $value in $theme-colors {
     .border-top-#{$color} {
       border-top-color: #{$value} !important;
     }
   }
 
-// scss-docs-start border-buttom-variant-loops
-@each $color, $value in $theme-colors {
+  // scss-docs-start border-buttom-variant-loops
+  @each $color, $value in $theme-colors {
     .border-bottom-#{$color} {
       border-bottom-color: #{$value} !important;
     }
   }
 
-// scss-docs-start border-(start/left)-variant-loops
-@each $color, $value in $theme-colors {
+  // scss-docs-start border-(start/left)-variant-loops
+  @each $color, $value in $theme-colors {
     .border-start-#{$color},
     .border-left-#{$color} {
-      border-block-start-color: #{$value} !important;
+      border-left-color: #{$value} !important;
     }
   }
 
-// scss-docs-start border-(end/right)-variant-loops
-@each $color, $value in $theme-colors {
+  // scss-docs-start border-(end/right)-variant-loops
+  @each $color, $value in $theme-colors {
     .border-end-#{$color},
     .border-right-#{$color} {
-      border-block-end-color: #{$value} !important;
+      border-right-color: #{$value} !important;
     }
   }
+}
