@@ -1,0 +1,8 @@
+node_modules/**/*.css
+**/node_modules
+scss/*.scss
+*.md
+*.json
+*.js
+*.lock
+*.json

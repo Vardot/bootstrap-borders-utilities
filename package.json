@@ -1,0 +1,68 @@
+{
+  "name": "bootstrap-borders-utilities",
+  "version": "1.0.0",
+  "description": "Bootstrap Borders Utilities",
+  "author": "Vardot",
+  "contributors": [
+    "Rajab Natshah"
+  ],
+  "license": "MIT",
+  "main": "gulpfile.js",
+  "homepage": "https://github.com/Vardot/bootstrap-borders-utilities",
+  "style": "dist/css/bootstrap-borders-utilities.css",
+  "sass": "scss/bootstrap-borders-utilities.scss",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Vardot/bootstrap-borders-utilities.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Vardot/bootstrap-borders-utilities/issues"
+  },
+  "engines": {
+    "yarn": ">= 1.6",
+    "node": ">= 12.0"
+  },
+  "keywords": [
+    "SASS",
+    "Bootstrap",
+    "Borders",
+    "Utilities",
+    "Bootstrap 4",
+    "Bootstrap 5",
+    "border color side variants"
+  ],
+  "scripts": {
+    "theme:init": "gulp",
+    "theme:build": "gulp compile",
+    "theme:watch": "gulp watch",
+    "lint:css": "npx stylelint --config=.stylelintrc.json ."
+  },
+  "devDependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "glob": "^7.2.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^4.1.0",
+    "gulp-clean-css": "3.9.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-html-replace": "^1.6.2",
+    "gulp-load-plugins": "^2.0.4",
+    "gulp-postcss": "^8.0.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^5.0.0",
+    "gulp-scss-lint": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-uglify": "^3.0.0",
+    "prettier": "^2.4.1",
+    "stylelint": "^13.0.0",
+    "stylelint-checkstyle-formatter": "^0.1.2",
+    "stylelint-config-standard": "^23.0.0",
+    "stylelint-no-browser-hacks": "^1.0.2",
+    "stylelint-order": "^5.0.0"
+  },
+  "files": [
+    "dist/css/bootstrap-borders-utilities.css",
+    "lib/border-color-variants.scss",
+    "scss/bootstrap-borders-utilities.scss"
+  ]
+}
