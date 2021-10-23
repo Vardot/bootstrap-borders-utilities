@@ -1,6 +1,6 @@
 {
   "name": "bootstrap-borders-utilities",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bootstrap Borders Utilities",
   "author": "Vardot",
   "contributors": [
@@ -62,7 +62,7 @@
   },
   "files": [
     "dist/css/bootstrap-borders-utilities.css",
-    "lib/border-color-variants.scss",
+    "utilities/scss/border-color-variants.scss",
     "scss/bootstrap-borders-utilities.scss"
   ]
 }

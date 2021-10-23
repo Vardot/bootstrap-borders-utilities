@@ -25,7 +25,7 @@ or `custom_theme.base.scss`
 @import "../../node_modules/bootstrap/scss/_utilities"; // Bootstrap utilities.
 // -----------------------------------------------------------------------------
 
-@import "../../node_modules/bootstrap-borders-utilities/lib/scss/border-color-variants.scss";
+@import "../../node_modules/bootstrap-borders-utilities/utilities/scss/border-color-variants.scss";
 ```
 
 
